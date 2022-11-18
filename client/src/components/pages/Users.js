@@ -160,13 +160,13 @@ class Users extends Component {
 
     render() {
         return (
-            <div>
+            <div className="bg-dark text-light">
                 <Navbar/>
                 <div className="d-flex" id="wrapper">
                     <Sidebar/>
                     <UserAddModal/>
                     <UserUpdateModal record={this.state.currentRecord}/>
-                    <div id="page-content-wrapper">
+                    <div id="page-content-wrapper" className="bg-dark text-light">
                         <div className="container-fluid">
                             <button className="btn btn-link mt-3" id="menu-toggle"><FontAwesomeIcon icon={faList}/></button>
                             <button className="btn btn-outline-primary float-right mt-3 mr-2" data-toggle="modal" data-target="#add-user-modal"><FontAwesomeIcon icon={faPlus}/> Add User</button>

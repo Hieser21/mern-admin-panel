@@ -19,7 +19,7 @@ class Dashboard extends Component {
     render() {
         //const { user } = this.props.auth;
         return (
-            <div>
+            <div className="bg-dark">
                 <Navbar/>
                 <div className="d-flex" id="wrapper">
                     <Sidebar/>

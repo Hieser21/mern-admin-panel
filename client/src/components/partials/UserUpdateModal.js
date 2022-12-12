@@ -74,9 +74,9 @@ class UserUpdateModal extends React.Component {
         const { errors } = this.state;
         return (
             <div>
-                <div className="modal fade" id="update-user-modal">
+                <div className="modal bg-dark fade" id="update-user-modal">
                     <div className="modal-dialog modal-lg">
-                        <div className="modal-content">
+                        <div className="modal-content bg-dark">
                             <div className="modal-header">
                                 <h4 className="modal-title">Update User</h4>
                                 <button type="button" className="close" data-dismiss="modal">&times;</button>

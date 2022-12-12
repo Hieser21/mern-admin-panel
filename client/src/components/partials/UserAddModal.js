@@ -58,9 +58,9 @@ class UserAddModal extends React.Component {
         const { errors } = this.state;
         return (
             <div>
-                <div className="modal fade" id="add-user-modal" data-reset="true">
-                    <div className="modal-dialog modal-lg">
-                        <div className="modal-content">
+                <div className="modal bg-dark fade" id="add-user-modal" data-reset="true">
+                    <div className="modal-dialog bg-dark modal-lg">
+                        <div className="modal-content bg-dark">
                             <div className="modal-header">
                                 <h4 className="modal-title">Add User</h4>
                                 <button type="button" className="close" data-dismiss="modal">&times;</button>
